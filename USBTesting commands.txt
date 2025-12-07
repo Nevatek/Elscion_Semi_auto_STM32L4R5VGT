@@ -1,0 +1,177 @@
+
+1.Comamnd to filter rotate motor to home
+{
+    "cmd": "FLH",
+	"task":"=",
+	"value": "on"
+}
+
+2.Comamnd to filter rotate motor to specific angle
+{
+    "cmd": "FLA",
+	"task":"=",
+	"value": "180"
+}
+3.Comamnd to filter rotate motor to specific step
+{
+    "cmd": "FLS",
+	"task":"=",
+	"value": "1200"
+}
+4.Comamnd to Enable or disable filter motor
+{
+    "cmd": "FLE",
+	"task":"=",
+	"value": "on"
+}
+
+{
+    "cmd": "FLE",
+	"task":"=",
+	"value": "off"
+}
+
+5.Comamnd to start /stop read ADC from preamp 
+{
+    "cmd": "PRA",
+	"task":"=",
+	"value": "on"
+}
+
+{
+    "cmd": "PRA",
+	"task":"=",
+	"value": "off"
+}
+
+6. Command to beep buzzer
+
+{
+    "cmd": "BUZ",
+	"task":"=",
+	"value": "on"
+}
+
+7. Command to Set preamp gain
+
+{
+    "cmd": "PRG",
+	"task":"=",
+	"value": "2"
+}
+
+8. Command to Turn on / off lamp
+
+{
+    "cmd": "LAM",
+	"task":"=",
+	"value": "on"
+}
+
+{
+    "cmd": "LAM",
+	"task":"=",
+	"value": "off"
+}
+
+9. Command to Turn on / off DC perilstatic motor
+
+{
+    "cmd": "MOT",
+	"task":"=",
+	"value": "10"
+}
+
+{
+    "cmd": "MOT",
+	"task":"=",
+	"value": "0"
+}
+9.Command to Turn on / off Aspiration LED
+
+{
+    "cmd": "ALE",
+	"task":"=",
+	"value": "on"
+}
+
+{
+    "cmd": "ALE",
+	"task":"=",
+	"value": "off"
+}
+10. Command to change valve position
+
+{
+    "cmd": "VAL",
+	"task":"=",
+	"value": "1"
+}
+
+{
+    "cmd": "VAL",
+	"task":"=",
+	"value": "0"
+}
+
+11. Command to Read temperature sensor (0 : Photometer temp , 1 : Chamber temp)
+{
+    "cmd": "TMP",
+	"task":"=",
+	"value": "0"
+}
+
+{
+    "cmd": "TMP",
+	"task":"=",
+	"value": "1"
+}
+12.Command to Simulate Aspiration switch
+
+{
+    "cmd": "ASP",
+	"task":"=",
+	"value": "press"
+}
+13.Command to read liquid level detection sensor
+
+{
+    "cmd": "LIQ",
+	"task":"=",
+	"value": "read"
+}
+14.Command to read Auto door wash sensor
+
+{
+    "cmd": "ADR",
+	"task":"=",
+	"value": "read"
+}
+15.Command to read filter wheel slot sensor
+
+{
+    "cmd": "FHS",
+	"task":"=",
+	"value": "read"
+}
+16. Command for pump aspiration
+
+{
+    "cmd": "PUM",
+	"task":"=",
+	"value": "100"
+}
+17. Command for selecting filter
+
+{
+    "cmd": "FIL",
+	"task":"=",
+	"value": "5"
+}
+18. Command for resetting test parameter in flash memory
+
+{
+    "cmd": "RTP",
+	"task":"=",
+	"value": "reset"
+}
